@@ -1,6 +1,7 @@
 
 html {
   font-family: "IBM Plex Sans", sans-serif;
+  background-color: #efefef;
 }
 
 .logo {
@@ -13,9 +14,18 @@ table {
 
 .search-bar {
   width: 100vw;
-  border: 1px solid #ddd;
+  border: 1px solid #aaa;
+  background-color: #fff;
 }
 
 .header {
-  background-color: #efefef;
+  background-color: #ddd;
+}
+
+.playground {
+  background-color: #fff;
+}
+
+.nearest {
+
 }
