@@ -1,0 +1,21 @@
+
+html {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+table {
+  min-width: 40em;
+}
+
+.search-bar {
+  width: 100vw;
+  border: 1px solid #ddd;
+}
+
+.header {
+  background-color: #efefef;
+}

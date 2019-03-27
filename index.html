@@ -8,66 +8,343 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
 </head>
 <body>
 
-<main>
-<!-- HEADER -->
-  <div class="">
+  <main>
+    <!-- HEADER -->
+    <div class="header">
       <img class="logo" src="images/logo.svg" alt="">
-      <img class="search" src="images/search.svg" alt="">
-  </div>
-
-<!-- NEAREST PLAYGROUNDS -->
-  <div class="">
-    <h2>Nearest Playgrounds</h2>
-
-    <div class="">
-      <ol>
-        <li>373</li>
-        <li>Distance</li>
-        <li>0.75 km</li>
-      </ol>
+      <div class="search-bar">
+        <img class="i-1 pad-t-1-4 search" src="images/search.svg" alt="">
+      </div>
     </div>
 
+    <!-- NEAREST PLAYGROUNDS -->
     <div class="">
-      <ol>
-        <li>1700</li>
-        <li>Distance</li>
-        <li>2.58 km</li>
-      </ol>
+      <h2 class="milli">Nearest Playgrounds</h2>
+
+      <div class="">
+        <ol class="list-group">
+          <li>373</li>
+          <li>Distance</li>
+          <li>0.75 km</li>
+        </ol>
+      </div>
+
+      <div class="">
+        <ol class="list-group">
+          <li>1700</li>
+          <li>Distance</li>
+          <li>2.58 km</li>
+        </ol>
+      </div>
+
+      <div class="">
+        <ol class="list-group">
+          <li>960</li>
+          <li>Distance</li>
+          <li>3.03 km</li>
+        </ol>
+      </div>
     </div>
 
-    <div class="">
-      <ol>
-        <li>960</li>
-        <li>Distance</li>
-        <li>3.03 km</li>
-      </ol>
+    <!-- TABLE -->
+    <div class="table scrollable">
+      <table class="">
+        <caption>Playgrounds in the city</caption>
+        <thead>
+          <tr>
+            <th class="bold" scope="col">Park ID</th>
+            <th class="bold" scope="col">Park type</th>
+            <th class="bold" scope="col">Age group</th>
+            <th class="bold" scope="col">Swings</th>
+            <th class="bold" scope="col">Slides</th>
+            <th class="bold" scope="col">Seesaws</th>
+            <th class="bold" scope="col">Sandboxes</th>
+            <th class="bold" scope="col">Playhouses</th>
+          </tr>
+        </thead>
+
+        <tr>
+          <th>545</th>
+          <td>Play area</td>
+          <td>Junior</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+        </tr>
+
+        <tr>
+          <th>81</th>
+          <td>Play area</td>
+          <td>Toddler</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+        </tr>
+
+        <tr>
+          <th>140</th>
+          <td>Play structure</td>
+          <td>Junior</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+        </tr>
+
+        <tr>
+          <th>376</th>
+          <td>Play area</td>
+          <td>Toddler</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+        </tr>
+
+        <tr>
+          <th>373</th>
+          <td>Play Area</td>
+          <td>Junior</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>Yes</td>
+        </tr>
+
+        <tr>
+          <th>310</th>
+          <td>Play area</td>
+          <td>Toddler</td>
+          <td>No</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+        </tr>
+
+        <tr>
+          <th>1133</th>
+          <td>Play Area</td>
+          <td>Toddler</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+        </tr>
+
+        <tr>
+          <th>1032</th>
+          <td>Play Area</td>
+          <td>Toddler</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+        </tr>
+
+        <tr>
+          <th>1647</th>
+          <td>Play area</td>
+          <td>Toddler</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>Yes</td>
+          <td>No</td>
+        </tr>
+
+        <tr>
+          <th>1700</th>
+          <td>Play structure</td>
+          <td>Junior</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+        </tr>
+
+        <tr>
+          <th>1213</th>
+          <td>Play structure</td>
+          <td>Toddler</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+        </tr>
+
+        <tr>
+          <th>2452</th>
+          <td>Play Area</td>
+          <td>Junior</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+        </tr>
+
+        <tr>
+          <th>101</th>
+          <td>Play Area</td>
+          <td>Toddler</td>
+          <td>No</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>Yes</td>
+          <td>No</td>
+        </tr>
+
+        <tr>
+          <th>960</th>
+          <td>Play structure</td>
+          <td>Junior</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+        </tr>
+
+        <tr>
+          <th>555</th>
+          <td>Play structure</td>
+          <td>Senior</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+        </tr>
+
+        <tr>
+          <th>403</th>
+          <td>Play structure</td>
+          <td>Toddler</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+        </tr>
+
+        <tr>
+          <th>89</th>
+          <td>Play structure</td>
+          <td>Toddler</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+        </tr>
+
+        <tr>
+          <th>786</th>
+          <td>Play area</td>
+          <td>Toddler</td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+        </tr>
+
+        <tr>
+          <th>108</th>
+          <td>Play structure</td>
+          <td>Junior</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+        </tr>
+
+        <tr>
+          <th>686</th>
+          <td>Play structure</td>
+          <td>Junior</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+        </tr>
+
+        <tr>
+          <th>1083</th>
+          <td>Play area</td>
+          <td>Toddler</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>No</td>
+        </tr>
+
+        <tr>
+          <th>806</th>
+          <td>Play structure</td>
+          <td>Senior</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+        </tr>
+
+        <tr>
+          <th>1032</th>
+          <td>Play area</td>
+          <td>Toddler</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+        </tr>
+
+        <tr>
+          <th>65</th>
+          <td>Play structure</td>
+          <td>Toddler</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+        </tr>
+
+        <tr>
+          <th>609</th>
+          <td>Play area</td>
+          <td>Junior</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+        </tr>
+      </table>
+
     </div>
-  </div>
 
-<!-- TABLE -->
-<div class="">
-  <table>
-    <caption>Playgrounds in the city</caption>
-    <thead>
-      <tr>
-        <th class="bold" scope="col">Park ID</th>
-        <th class="bold" scope="col">Park type</th>
-        <th class="bold" scope="col">Age group</th>
-        <th class="bold" scope="col">Swings</th>
-        <th class="bold" scope="col">Slides</th>
-        <th class="bold" scope="col">Seesaws</th>
-        <th class="bold" scope="col">Sandboxes</th>
-        <th class="bold" scope="col">Playhouses</th>
-      </tr>
-    </thead>
-  </table>
-
-</div>
-
-
-</main>
+  </main>
 </body>
 </html>
